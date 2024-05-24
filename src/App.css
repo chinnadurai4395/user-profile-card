@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+ .card{
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: #fff;
+  position: relative;
+  height: 650px;
+  box-shadow: 5px 5px 5px 5px #e1e0e0;
+ }
+
+ .upper{
+  height: 100px;
+ }
+
+ .upper img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ }
+
+ .user{
+  position: relative;
+ }
+
+ .profile img{
+  height: 80px;
+  width: 80px;
+  margin-top:2px;
+ }
+
+ .profile{
+  position: absolute;
+  top:56px;
+  left: 38%;
+  height: 90px;
+  width: 90px;
+  border:3px solid #fff;
+  border-radius: 50%;
+ }
+
+ .follow{
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 35px;
+ }
+
+ .stats span{
+  font-size: 12px;
+ }
+ .profile-body{
+  position:relative; 
+  top:30%;
+ }
