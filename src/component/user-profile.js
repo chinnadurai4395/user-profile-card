@@ -1,13 +1,9 @@
 import React from "react";
 
 const UserProfile = (props) => {
-
-    console.log(props);
-
-
     return (
         <div>
-            <section className="userprfilebacground">
+            <section className="userprofilebackground">
                 <div class="container d-flex justify-content-center align-items-center mb-3">
                     <div class="card">
                         <div class="upper">
@@ -45,7 +41,6 @@ const UserProfile = (props) => {
                     </div>
                 </div>
             </section>
-
         </div>
     )
 }
