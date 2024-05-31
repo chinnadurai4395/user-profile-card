@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import user_avatar from '../Assets/user_profile_avatar_png.png';
 import Blue_background from '../Assets/Blue_fog_background.jpg'
-import UserProfile from "./user-prfile";
+import UserProfile from "./user-profile";
 
 class UserCard extends Component{
-    constructor(props){
-        super(props)
+    constructor(){
+        super()
         this.state={
             name:'Chinna',
             date_of_birth: '04-03-1995',
